@@ -10,7 +10,7 @@ function calculateScore(callback) {
 function strictScoring(ans) {
   let score = 0
   if (ans.q1 === "2") score++
-  if (ans.q2.toLowerCase() === "13") score++
+  if (ans.q2 === "13") score++
   if (ans.q3 === "10") score++
   return score
 }
